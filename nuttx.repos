@@ -1,0 +1,10 @@
+repositories:
+  nuttx:
+    type: git
+    url: https://github.com/apache/nuttx.git
+    version: nuttx-12.9.0  # master or use a specific tag like "nuttx-12.3.0"
+
+  apps:
+    type: git
+    url: https://github.com/apache/nuttx-apps.git
+    version: nuttx-12.9.0  # match the version with nuttx
