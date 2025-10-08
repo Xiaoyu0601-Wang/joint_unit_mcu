@@ -1,9 +1,16 @@
-# raspberry_pico_nuttx
+# joint_unit_mcu_nuttx
 
-## Download dependency
-
+## Install dependency
 ```sh
-vcs import . < nuttx.repos
+sudo apt install python3-pip
+sudo apt install python3-yaml
+```
+
+## Download Nuttx dependency
+```sh
+python3 download_nuttx_repos.py
+# Deprecated
+# vcs import joint_unit_mcu_nuttx < nuttx.repos
 ```
 
 # Joint Unit MCU Nuttx
